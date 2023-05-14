@@ -95,11 +95,10 @@ function Contact() {
     };
     document.body.appendChild(script);
 
-    // Simulating the API call
     setTimeout(() => {
-      setPhoneNumbers(["1234567890"]);
-      setEmailAddress(["example@example.com"]);
-      setAddress("123, ABC Street, XYZ City");
+      setPhoneNumbers(["+1 (801) 386-6272"]);
+      setEmailAddress(["melissaweirickdesigns@gmail.com"]);
+      setAddress("Woods Cross, UT 84087 USA");
     }, 1000);
 
     return () => {
